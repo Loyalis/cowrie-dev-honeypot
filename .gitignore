@@ -1,0 +1,23 @@
+# Cowrie logs and session data
+var/
+*.log
+*.log.*
+*.pickle*
+
+# Python virtual environment
+cowrie-env/
+__pycache__/
+*.pyc
+
+# Cowrie binaries and generated files
+bin/
+data/
+
+# General backup/editor files
+*.swp
+*.bak
+*.tmp
+
+# Don't push attacker keystroke logs or session replays
+tty/
+download/
